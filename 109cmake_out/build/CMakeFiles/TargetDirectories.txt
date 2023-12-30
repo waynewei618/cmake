@@ -1,4 +1,0 @@
-/home/u22/workspace/cmake/109cmake_out/build/CMakeFiles/xlog.dir
-/home/u22/workspace/cmake/109cmake_out/build/CMakeFiles/test_xlog.dir
-/home/u22/workspace/cmake/109cmake_out/build/CMakeFiles/edit_cache.dir
-/home/u22/workspace/cmake/109cmake_out/build/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/mnt/d/worksapce/cmake/108auto_src_h/build/CMakeFiles/auto_src_h.dir
-/mnt/d/worksapce/cmake/108auto_src_h/build/CMakeFiles/edit_cache.dir
-/mnt/d/worksapce/cmake/108auto_src_h/build/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-D:/worksapce/cmake/101first_cmake/NMAKE/CMakeFiles/first_cmake.dir
-D:/worksapce/cmake/101first_cmake/NMAKE/CMakeFiles/edit_cache.dir
-D:/worksapce/cmake/101first_cmake/NMAKE/CMakeFiles/rebuild_cache.dir
