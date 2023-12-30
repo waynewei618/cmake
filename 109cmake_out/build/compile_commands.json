@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/u22/workspace/cmake/109cmake_out/build",
+  "command": "/usr/bin/c++ -Dxlog_STATIC -I/home/u22/workspace/cmake/109cmake_out/xlog  -o CMakeFiles/xlog.dir/xlog/xlog.cpp.o -c /home/u22/workspace/cmake/109cmake_out/xlog/xlog.cpp",
+  "file": "/home/u22/workspace/cmake/109cmake_out/xlog/xlog.cpp"
+},
+{
+  "directory": "/home/u22/workspace/cmake/109cmake_out/build",
+  "command": "/usr/bin/c++ -Dxlog_STATIC -I/home/u22/workspace/cmake/109cmake_out/xlog  -o CMakeFiles/test_xlog.dir/test_xlog/test_xlog.cpp.o -c /home/u22/workspace/cmake/109cmake_out/test_xlog/test_xlog.cpp",
+  "file": "/home/u22/workspace/cmake/109cmake_out/test_xlog/test_xlog.cpp"
+}
+]

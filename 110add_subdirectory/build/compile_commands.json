@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/u22/workspace/cmake/110add_subdirectory/build/xlog",
+  "command": "/usr/bin/c++  -I/home/u22/workspace/cmake/110add_subdirectory/xlog -g -o CMakeFiles/xlog.dir/xlog.cpp.o -c /home/u22/workspace/cmake/110add_subdirectory/xlog/xlog.cpp",
+  "file": "/home/u22/workspace/cmake/110add_subdirectory/xlog/xlog.cpp"
+},
+{
+  "directory": "/home/u22/workspace/cmake/110add_subdirectory/build/test_xlog",
+  "command": "/usr/bin/c++  -I/home/u22/workspace/cmake/110add_subdirectory/xlog -I/home/u22/workspace/cmake/110add_subdirectory/test_xlog/../xlog -g -o CMakeFiles/test_xlog.dir/test_xlog.cpp.o -c /home/u22/workspace/cmake/110add_subdirectory/test_xlog/test_xlog.cpp",
+  "file": "/home/u22/workspace/cmake/110add_subdirectory/test_xlog/test_xlog.cpp"
+},
+{
+  "directory": "/home/u22/workspace/cmake/110add_subdirectory/build/test_xlog_2",
+  "command": "/usr/bin/c++  -I/home/u22/workspace/cmake/110add_subdirectory/xlog -I/home/u22/workspace/cmake/110add_subdirectory/test_xlog_2/../xlog -g -o CMakeFiles/test_xlog_2.dir/test_xlog.cpp.o -c /home/u22/workspace/cmake/110add_subdirectory/test_xlog_2/test_xlog.cpp",
+  "file": "/home/u22/workspace/cmake/110add_subdirectory/test_xlog_2/test_xlog.cpp"
+}
+]

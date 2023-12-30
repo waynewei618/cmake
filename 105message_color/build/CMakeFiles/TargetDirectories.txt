@@ -1,0 +1,2 @@
+/home/u20/workspace/cmake/105message_color/build/CMakeFiles/edit_cache.dir
+/home/u20/workspace/cmake/105message_color/build/CMakeFiles/rebuild_cache.dir

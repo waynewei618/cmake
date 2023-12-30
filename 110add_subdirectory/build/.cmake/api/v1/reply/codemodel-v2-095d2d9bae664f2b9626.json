@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "xlog",
+					"jsonFile" : "directory-xlog-Debug-ad733ddae4dafbfa8ab7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "xlog",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test_xlog",
+					"jsonFile" : "directory-test_xlog-Debug-c088177a21d938eb27c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "test_xlog",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "test_xlog_2",
+					"jsonFile" : "directory-test_xlog_2-Debug-a431e80ec853a0616112.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "test_xlog_2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "xlog",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "test_xlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "test_xlog_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "test_xlog::@95d5a9ced2cb42d983ce",
+					"jsonFile" : "target-test_xlog-Debug-617c38774f5820e9f413.json",
+					"name" : "test_xlog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_xlog_2::@e97db62b24f933c5a5d7",
+					"jsonFile" : "target-test_xlog_2-Debug-7bed4b304ceef13899e9.json",
+					"name" : "test_xlog_2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xlog::@7383121a58d3d14cc370",
+					"jsonFile" : "target-xlog-Debug-25e3773387570091376d.json",
+					"name" : "xlog",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/u22/workspace/cmake/110add_subdirectory/build",
+		"source" : "/home/u22/workspace/cmake/110add_subdirectory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

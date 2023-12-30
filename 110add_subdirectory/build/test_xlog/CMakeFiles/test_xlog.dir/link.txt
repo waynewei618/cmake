@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_xlog.dir/test_xlog.cpp.o -o ../../bin/test_xlog   -L/home/u22/workspace/cmake/110add_subdirectory/test_xlog/../xlog/build  -Wl,-rpath,/home/u22/workspace/cmake/110add_subdirectory/test_xlog/../xlog/build ../../lib/libxlog.a 

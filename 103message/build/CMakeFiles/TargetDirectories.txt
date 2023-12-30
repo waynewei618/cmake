@@ -1,0 +1,3 @@
+/home/u20/workspace/cmake/103message/build/CMakeFiles/test_message.dir
+/home/u20/workspace/cmake/103message/build/CMakeFiles/edit_cache.dir
+/home/u20/workspace/cmake/103message/build/CMakeFiles/rebuild_cache.dir

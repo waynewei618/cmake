@@ -1,0 +1,3 @@
+/home/u20/workspace/cmake/106cmake_system_ver/build/CMakeFiles/xlog.dir
+/home/u20/workspace/cmake/106cmake_system_ver/build/CMakeFiles/edit_cache.dir
+/home/u20/workspace/cmake/106cmake_system_ver/build/CMakeFiles/rebuild_cache.dir

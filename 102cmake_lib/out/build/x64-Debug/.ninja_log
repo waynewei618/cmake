@@ -1,0 +1,6 @@
+# ninja log v5
+4	242	7256091477502605	CMakeFiles/test_xlog.dir/test_xlog/test_xlog.cpp.obj	bb96e77398b7c5a8
+368	492	7256091479622768	test_xlog.exe	a66c67ad73e0f8b
+2	243	7256091477502605	CMakeFiles/xlog.dir/xlog/xlog.cpp.obj	401a27fffd731e0e
+243	368	7256091478466808	xlog.lib	e89c25fe418905b1
+243	368	7256091478466808	xlog.dll	e89c25fe418905b1

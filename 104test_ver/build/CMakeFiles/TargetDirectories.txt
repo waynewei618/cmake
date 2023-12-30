@@ -1,0 +1,2 @@
+/home/u20/workspace/cmake/104test_ver/build/CMakeFiles/edit_cache.dir
+/home/u20/workspace/cmake/104test_ver/build/CMakeFiles/rebuild_cache.dir

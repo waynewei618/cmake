@@ -1,0 +1,8 @@
+# ninja log v5
+5	39	7256217617252591	CMakeFiles/auto_src_h.dir/src/xtest.c.obj	85c7679d9847f843
+8	250	7256217619365422	CMakeFiles/auto_src_h.dir/src/xthread.cc.obj	c947ed56e9c4f94b
+1	251	7256217619365422	CMakeFiles/auto_src_h.dir/main.cpp.obj	ba5c141d7459c1a3
+4	251	7256217619365422	CMakeFiles/auto_src_h.dir/src/xlog.cpp.obj	3f445e9469f79ea6
+9	247	7256218201027026	CMakeFiles/auto_src_h.dir/src/xlog.cpp.obj	3f445e9469f79ea6
+7	247	7256218201037285	CMakeFiles/auto_src_h.dir/main.cpp.obj	ba5c141d7459c1a3
+247	483	7256218203120658	auto_src_h.exe	fce4a26d094f7db8
