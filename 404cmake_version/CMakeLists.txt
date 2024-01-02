@@ -21,7 +21,7 @@ add_library(a SHARED a.cpp)
 set_target_properties(a PROPERTIES
 VERSION "2.0.1"
 SOVERSION "15"
-#NO_SONAME OFF #OFF生成 ON不生成库的符号链接
+NO_SONAME ON #OFF生成 ON不生成库的符号链接
 )
 
 add_executable(main main.cpp)

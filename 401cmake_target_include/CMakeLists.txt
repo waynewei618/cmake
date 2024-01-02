@@ -34,7 +34,7 @@ target_include_directories(A PRIVATE "/A_PRIVATE")
 target_include_directories(A INTERFACE "/A_INTERFACE")
 
 #设定A库的宏
-target_compile_definitions(A PUBLIC A_VAR=123)
+target_compile_definitions(A PUBLIC A_VAR=0)
 
 
 #打印属性

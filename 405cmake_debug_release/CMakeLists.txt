@@ -21,9 +21,9 @@ project(cmake_debug_release)
 #   release
 
 
-file(WRITE src/slib.cpp [=[
-void SLib(){}
-]=])
+# file(WRITE src/slib.cpp [=[
+# void SLib(){}
+# ]=])
 
 #[[
 Debug
@@ -77,31 +77,31 @@ ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${OUT_LIB_PATH}/release
 
 #####################################
 # 动态库
-file(WRITE include/dlib.h [=[
+# file(WRITE include/dlib.h [=[
 
-#ifndef _WIN32 //linux mac unix Android
-    #define XCPP_API
-#else //windows
-    //动态库
-    #ifdef dlib_EXPORTS
-        #define XCPP_API __declspec(dllexport) //库项目调用
-    #else
-        #define XCPP_API __declspec(dllimport) //调用库项目调用
-    #endif
-#endif
+# #ifndef _WIN32 //linux mac unix Android
+#     #define XCPP_API
+# #else //windows
+#     //动态库
+#     #ifdef dlib_EXPORTS
+#         #define XCPP_API __declspec(dllexport) //库项目调用
+#     #else
+#         #define XCPP_API __declspec(dllimport) //调用库项目调用
+#     #endif
+# #endif
 
-XCPP_API void DLib();
-]=])
+# XCPP_API void DLib();
+# ]=])
 
-file(WRITE src/dlib.cpp [=[
-#include "dlib.h"
-void DLib(){}
-]=])
+# file(WRITE src/dlib.cpp [=[
+# #include "dlib.h"
+# void DLib(){}
+# ]=])
 
 #生成动态库
 add_library(dlib SHARED src/dlib.cpp include/dlib.h)
 
-target_include_directories(dlib PUBLIC include)
+# target_include_directories(dlib PUBLIC include)
 
 #动态库属性
 set_target_properties(dlib PROPERTIES
@@ -130,16 +130,16 @@ DEBUG_POSTFIX "d"
 
 #####################################
 # 执行程序
-file(WRITE src/main.cpp [=[
-#include "dlib.h"
-void SLib();
-int main()
-{
-    DLib();
-    SLib();
-    return 0;
-}
-]=])
+# file(WRITE src/main.cpp [=[
+# #include "dlib.h"
+# void SLib();
+# int main()
+# {
+#     DLib();
+#     SLib();
+#     return 0;
+# }
+# ]=])
 add_executable(main src/main.cpp)
 target_link_libraries(main slib dlib)
 

@@ -17,7 +17,7 @@ $<OR:conditions>
 条件表达式
 $<condition:true_string>  0返回空串 1 返回true_string
 ]]  # $<BOOL:OFF>  ==》 0   $<0:TEST1=123>
-target_compile_definitions(cmake_exp PUBLIC "$<$<BOOL:ON>:TEST1=123>")
+target_compile_definitions(cmake_exp PUBLIC "$<$<BOOL:OFF>:TEST1=123>")
 
 #######################################
 #### 测试生成表达式的方式 ###############
